@@ -1,1 +1,3 @@
 # Python_chatbot
+
+This is a simple Python-based chatbot built using NLTK. It can respond to greetings, farewells, and thank-you messages, tell the current time, provide real-time weather updates using the WeatherAPI (you'll need your own API key), and fetch short summaries from Wikipedia. To use it, install the required libraries (nltk, wikipedia, and requests), run main.py, and start chatting in the terminal. The chatbot matches user input with predefined patterns from intents_better.json, and also handles special commands like "weather in [city]" and "wikipedia [topic]". It's a basic but functional terminal chatbot with both static and real-time responses.

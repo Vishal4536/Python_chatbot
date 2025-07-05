@@ -1,0 +1,66 @@
+
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good day", "What's up", "Howdy"],
+      "responses": ["Hello!", "Hi there!", "Hey! How can I assist you today?", "Greetings!"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you", "Goodbye", "Catch you later", "Talk to you later"],
+      "responses": ["Goodbye!", "Take care!", "See you later!", "Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Much appreciated", "Thanks a lot"],
+      "responses": ["You're welcome!", "Glad I could help!", "Anytime!", "No problem at all!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["What are your hours?", "When are you open?", "Opening hours?", "Working hours?", "Business hours?"],
+      "responses": ["We're open 9am to 5pm, Monday to Friday.", "Our working hours are 9 to 5 on weekdays."]
+    },
+    {
+      "tag": "time",
+      "patterns": ["What is the time now?", "Tell me the time", "Current time", "Do you know the time?"],
+      "responses": ["Sorry, I can't tell the time yet. Try checking your system clock.", "I'm not equipped with a clock yet."]
+    },
+    {
+      "tag": "identity",
+      "patterns": ["I am Vishal", "My name is Vishal", "I am John", "I am a person", "Call me Raj", "This is Ravi"],
+      "responses": ["Nice to meet you!", "That's a great name!", "Hello there!", "Pleasure meeting you!"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["Which continent is India?", "India is in which continent", "India belongs to which continent", "India's continent", "What continent is India part of?"],
+      "responses": ["India is located in Asia.", "India is part of the Asian continent.", "India belongs to Asia."]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["Who created you?", "Who made you?", "Who is your developer?", "Who built you?"],
+      "responses": ["I was created by a developer using Python and NLTK!", "A vishal made me using some cool code."]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["What's the weather like?", "Is it raining?", "Tell me the weather", "Weather now"],
+      "responses": ["I can't access real-time weather yet. Try checking a weather website.", "Sorry, no weather updates from me right now."]
+    },
+    {
+      "tag": "weather",
+      "patterns": [
+        "What's the weather like?",
+        "Tell me the weather",
+        "Is it raining?",
+        "Weather update",
+        "What's the temperature?",
+        "Weather in [city]",
+        "Weather now"
+      ],
+      "responses": [
+        "Let me get the current weather for you..."
+      ]
+    }
+
+  ]
+}
